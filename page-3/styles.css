@@ -1,0 +1,77 @@
+body {
+    font-family: 'Futura PT', sans-serif;
+    height: 100vh;
+    background-image: url('assets/main-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #14823D;
+}
+
+.custom-card {
+    background-color: #A0BEBE;
+    border-radius: 2rem;
+    max-width: 820px;
+}
+
+.content_container {
+    width: 80%;
+}
+
+.content-bg-container {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.paperclip-container {
+    top: -50px;
+    right: -50px;
+}
+
+.content_title {
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 104px;
+}
+
+.content_text {
+    color: #000;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.content_subtitle {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('assets/main-bg-mobile.png');
+    }
+
+    .content-bg-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .paperclip-container {
+        display: none;
+    }
+
+    .content_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .content_text {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .content_subtitle {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

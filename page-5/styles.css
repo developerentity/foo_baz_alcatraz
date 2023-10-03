@@ -1,0 +1,71 @@
+body {
+    height: 100vh;
+    font-family: 'Futura PT', sans-serif;
+    background-color: #323232;
+    color: #38C76E;
+}
+
+.text-container {
+    margin-bottom: 200px;
+}
+
+.content_title {
+    font-size: 160px;
+    font-weight: 600;
+    line-height: 188px;
+}
+
+.content_text {
+    color: #B0B0B0;
+    font-size: 32px;
+    line-height: 40px;
+    width: 70%;
+}
+
+.content_subtitle {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('assets/background-mobile.png');
+        background-size: 100% 50%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    .text-container {
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .image-container {
+        margin-top: 86px;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .content_title {
+        text-align: center;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .content_text {
+        width: 100%;
+        color: #FFF;
+        text-align: center;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .content_subtitle {
+        color: #38C76E;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+}
